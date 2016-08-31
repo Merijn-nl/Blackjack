@@ -1,2 +1,4 @@
 # Blackjack
-Blackjack in your browser - with Javascript
+Play blackjack in your iPhone's browser - with Javascript
+
+Big cards, fonts and buttons for the iPhone's retina screen.
