@@ -1,0 +1,17 @@
+body {margin:20px; /*background-color: #eeeeee;*/ font-family: Helvetica; font-size: .9em; background-image: url(background.jpg); color: #eeeeee;}
+img {position: absolute; z-index: 2;}
+h2 {margin-top: -30px; margin-bottom: -2px;}
+hr, h2, h3, #game, #bankroll, #table, #decision, #outcome, .message {text-align: center;}
+
+#outcome, #buttons {position: relative;}
+#outcome {top: -370px; background-color: rgba(50,50,50 ,0.25); width: 300px; -webkit-border-radius: 20px; padding: 1em; margin: 0 auto; z-index: -10; }
+#buttons {top: -300px; background-color: rgba(50,50,50 ,0.25); width: 100px; -webkit-border-radius: 20px; padding: 1em; float: right; right: 20%;}
+
+#yourCards, #dealersCards {font-weight: bold;}
+#yourCards, #player, #plyValue, #plyValueSplit {float: left;}
+#dealersCards, #dealer, #deaValue {float: right;}
+#plyValue, #plyValueSplit, #deaValue {padding: 0 2em; text-align: center;}
+
+.under {margin: auto;}
+.busto {color: white; -webkit-text-stroke: 1px #ff3333;}
+.win {color: white; -webkit-text-stroke: 1px #33ff33;}
