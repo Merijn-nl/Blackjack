@@ -1,0 +1,22 @@
+html, body {height: 100%;}
+body {margin:0; background-color: green; font-family: Helvetica; font-size: .9em; /*background-image: url(background.jpg);*/ color: #eeeeee;}
+img {position: absolute; z-index: 2;}
+h1,h2,h3,button,input {font-size: 350%; margin: 0 10px 50px 10px;}
+p {font-size: 200%;}
+h2 {margin-top: -30px; margin-bottom: -2px;}
+hr, h1, h2, h3, #game, #bankroll, #table, #decision, #outcome, .message, #buttons {text-align: center;}
+
+#table {height: 100%; overflow: hidden; }
+
+#outcome, #buttons {position: relative; float: right; background-color: rgba(50,50,50 ,0.25); width: 30%; -webkit-border-radius: 50px; padding: 1em; }
+#outcome {margin: 0 auto; z-index: 25; display: none; top: -850px; }
+#buttons {top: -650px; float: right; z-index: 100; }
+
+#yourCards, #dealersCards {font-weight: bold;}
+#yourCards, #player, #plyValue, #plyValueSplit {float: left;}
+#dealersCards, #dealer, #deaValue {float: right;}
+#plyValue, #plyValueSplit, #deaValue {padding: 0 2em; text-align: center;}
+
+.under {margin: auto;}
+.busto {color: white; -webkit-text-stroke: 1px #ff3333;}
+.win {color: white; -webkit-text-stroke: 1px #33ff33;}
